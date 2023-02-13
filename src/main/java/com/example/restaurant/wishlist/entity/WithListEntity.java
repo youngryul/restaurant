@@ -1,4 +1,4 @@
-package com.example.restaurant.withlist.entity;
+package com.example.restaurant.wishlist.entity;
 
 import com.example.restaurant.db.MemoryDbEntity;
 import lombok.AllArgsConstructor;

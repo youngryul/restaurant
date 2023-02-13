@@ -1,12 +1,10 @@
-package com.example.restaurant.withlist.repository;
+package com.example.restaurant.wishlist.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @SpringBootTest
-public class WithListRepositoryTest {
+public class WishListRepositoryTest {
 
     @Autowired
     private WishListRepository wishListRepository;

@@ -1,15 +1,14 @@
-package com.example.restaurant.withlist.repository;
+package com.example.restaurant.wishlist.repository;
 
-import com.example.restaurant.db.MemoryDbEntity;
 import com.example.restaurant.db.MemoryDbRepositoryAbstract;
-import com.example.restaurant.withlist.entity.WithListEntity;
+import com.example.restaurant.wishlist.entity.WithListEntity;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 
 @Repository
-public class WithListRepository extends MemoryDbRepositoryAbstract<WithListEntity> {
+public class WishListRepository extends MemoryDbRepositoryAbstract<WithListEntity> {
 
     @Override
     public Optional<WithListEntity> findById(int index) {
