@@ -26,7 +26,7 @@ public class WishListRepository extends MemoryDbRepositoryAbstract<WishListEntit
     }
 
     @Override
-    public List<WishListEntity> listAll() {
-        return super.listAll();
+    public List<WishListEntity> findAll() {
+        return super.findAll();
     }
 }

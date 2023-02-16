@@ -1,5 +1,6 @@
 package com.example.restaurant.db;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,5 +9,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class MemoryDbEntity {
-    protected int index;
+    protected Integer index;
 }
