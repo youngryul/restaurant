@@ -6,3 +6,10 @@ naver:
   client:
     id: mW65xYEBd4hJLtkIqabB
     secret: yL_mccRohS
+
+spring:
+  devtools:
+    liverload:
+      enabled:true
+    thymeleaf:
+      cache:false
